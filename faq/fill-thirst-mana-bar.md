@@ -25,3 +25,10 @@ To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
 * open `contents/iaalchemy/configs/huds/huds.yml`
 * set `enabled: false`
 * use `/iareload` command
+
+## You have to disable the HUDs in config.yml.
+
+* open `plugins\ItemsAdder\config.yml`
+* set `huds:
+        enabled: false`
+* use `/iareload` command
